@@ -1,0 +1,14 @@
+.modal {
+  visibility: hidden;
+  z-index: -10;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: fixed;
+  display: grid;
+}
+
+.open {
+  visibility: visible;
+  z-index: 10;
+}

@@ -1,0 +1,22 @@
+.bird {
+  width: 25px;
+  height: 25px;
+  z-index: 10;
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.game-container {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background-color: #00bfff;
+  margin: 0 auto;
+}
+
+.obstacle {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}

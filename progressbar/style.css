@@ -1,0 +1,35 @@
+/* .loading-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+:root {
+  --progress: 0%;
+}
+.hide {
+  visibility: hidden;
+}
+
+.button {
+  cursor: pointer;
+}
+.progressbar {
+  display: inline-block;
+  width: 500px;
+  padding: 5px 20px;
+  height: 60px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.progressbar::after {
+  content: '';
+  display: block;
+  width: var(--progress);
+  height: 100%;
+  background-color: #000;
+  border-radius: 10px;
+  transition: width 1s;
+}

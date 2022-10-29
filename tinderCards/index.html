@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="swiper">
+      <div class="wrapper">
+        <div class="card-group" data-index="0" data-status="active">
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+        </div>
+        <div class="card-group" data-index="1" data-status="unknown">
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+        </div>
+        <div class="card-group" data-index="2" data-status="unknown">
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+          <div class="card small-card"></div>
+          <div class="card big-card"></div>
+        </div>
+      </div>
+      <div class="card-swiper-buttons">
+        <button id="hate-button" onclick="handleHateClick()">
+          <i class="fa-solid fa-x"></i>
+        </button>
+        <button id="love-button" onclick="handleLoveClick()">
+          <i class="fa-solid fa-heart"></i>
+        </button>
+      </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5567cc363a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

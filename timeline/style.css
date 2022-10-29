@@ -1,0 +1,52 @@
+:root {
+  --active-color: #f00;
+}
+
+.timeline {
+  position: relative;
+  max-height: 1000px;
+  margin: 0;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 72px;
+  background-color: white;
+  border: 1px solid grey;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+}
+.right::after {
+  left: -5px;
+}
+.content {
+  border-radius: 6px;
+}
+.l {
+  float: right;
+  padding: 0 50px 0 0;
+}
