@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+.mainpage {
+  height: 100vmin;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-image: url('https://images.unsplash.com/photo-1502933691298-84fc14542831?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+}
+.button-circle {
+  border-radius: 100%;
+  width: 7vmin;
+  height: 7vmin;
+  background-color: bisque;
+  border: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: -1px 2px 16px 12px rgba(0, 0, 0, 0.35);
+}
+.button-circle:hover {
+  transform: scale(1.1);
+}
+
+i {
+  font-size: 5vmin;
+  color: white;
+}
+
+.hidden-menubar {
+  display: grid;
+  grid-auto-flow: column;
+}
+.hide {
+  display: none;
+}
+.card {
+  aspect-ratio: 2 / 1;
+  height: 10vmin;
+  width: 10vmin;
+  border-radius: 1vmin;
+  background-color: black;
+}
+.card:nth-child(2) {
+  background-color: aqua;
+}
